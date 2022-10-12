@@ -24,7 +24,7 @@ function initialize(passport, getUserByEmail, getUserById) {
 		new LocalStrategy(
 			{
 				usernameField: "email",
-				passwordField: "password" /*o valor default ja é password*/,
+				passwordField: "password" /*the default value is already "password"*/,
 			},
 			authenticateUser
 		)
